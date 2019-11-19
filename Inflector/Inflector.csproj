@@ -1,24 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard1.3;net451;net461</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.2.2</Version>
-    <Description>Inflector is a simple lightweight .NET netstandard class library enabling you to pluralize, singularize, titleize (...) words in a specific culture.
+    <Description><![CDATA[This package is strong named version of Inflector-NetStandard.
+Inflector is a simple lightweight .NET netstandard class library enabling you to pluralize, singularize, titleize (...) words in a specific culture.
 
 More info available at:
 https://github.com/andrewaggb/Inflector-NetStandard
 
-This library is based on https://github.com/abelepereira/Inflector-Portable but recompiled to target .net standard</Description>
+This library is based on https://github.com/abelepereira/Inflector-Portable but recompiled to target .net standard]]></Description>
     <Company />
     <Product>Inflector NetStandard</Product>
     <Authors>Andrew Buchanan, Abel Pereira, Scott Kirkland</Authors>
     <PackageTags>camelize, pascalize, dasherize, singularize, capitalize, titleize, pluralize, humanize, ordinalize, netstandard, inflector</PackageTags>
     <PackageProjectUrl>https://github.com/andrewaggb/Inflector-NetStandard</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageLicenseUrl>https://github.com/andrewaggb/Inflector-NetStandard/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <Copyright>Copyright (c) 2017 Andrew Buchanan</Copyright>
-    <PackageId>Inflector.NetStandard</PackageId>
+    <PackageId>Inflector.NetStandard.StrongName</PackageId>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Inflector.NetStandart.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/alperkonuralp/Inflector-NetStandard</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

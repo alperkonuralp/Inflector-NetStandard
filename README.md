@@ -1,4 +1,4 @@
-# Inflector NetStandard
+# Inflector NetStandard With Strong Name
 
 Inflector is a simple lightweight .NET netstandard class library enabling you to pluralize, singularize, 
 titleize (...) words in a specific culture.
